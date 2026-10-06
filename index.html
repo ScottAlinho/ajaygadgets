@@ -17,9 +17,7 @@
             -webkit-tap-highlight-color: transparent;
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
+        html { scroll-behavior: smooth; }
 
         body {
             background: #f4f7fc;
@@ -74,10 +72,7 @@
             box-shadow: 0 8px 14px rgba(10, 40, 80, 0.25);
             transition: transform 0.3s ease;
         }
-
-        .logo-icon:hover {
-            transform: rotate(-8deg) scale(1.05);
-        }
+        .logo-icon:hover { transform: rotate(-8deg) scale(1.05); }
 
         .logo-text {
             font-size: 28px;
@@ -111,10 +106,8 @@
             cursor: pointer;
             transition: transform 0.2s, color 0.2s;
         }
-        .header-actions i:hover {
-            color: #1a4a8b;
-            transform: scale(1.15);
-        }
+        .header-actions i:hover { color: #1a4a8b; transform: scale(1.15); }
+        
         .cart-badge {
             background: #d92b2b;
             color: white;
@@ -125,9 +118,7 @@
             transition: transform 0.2s;
             cursor: pointer;
         }
-        .cart-badge.bump {
-            animation: bump 0.4s ease;
-        }
+        .cart-badge.bump { animation: bump 0.4s ease; }
         @keyframes bump {
             0% { transform: scale(1); }
             50% { transform: scale(1.3); }
@@ -160,28 +151,16 @@
             align-items: center;
             white-space: nowrap;
         }
-        .nav-bar a i {
-            margin-right: 8px;
-            color: #2266cc;
-            transition: color 0.25s;
-        }
-        .nav-bar a:hover {
-            background: #d4e2fc;
-            color: #0a2a5c;
-            transform: translateY(-2px);
-        }
-        .nav-bar a:active {
-            transform: translateY(0) scale(0.97);
-        }
+        .nav-bar a i { margin-right: 8px; color: #2266cc; transition: color 0.25s; }
+        .nav-bar a:hover { background: #d4e2fc; color: #0a2a5c; transform: translateY(-2px); }
+        .nav-bar a:active { transform: translateY(0) scale(0.97); }
         .nav-bar a.active {
             background: #1a4a8b;
             color: white;
             padding: 8px 22px;
             box-shadow: 0 6px 14px rgba(26, 74, 139, 0.3);
         }
-        .nav-bar a.active i {
-            color: white;
-        }
+        .nav-bar a.active i { color: white; }
 
         /* ----- QUICK DEALS BAR ----- */
         .quick-deals {
@@ -206,11 +185,7 @@
             gap: 10px;
             white-space: nowrap;
         }
-        .quick-deals .label i {
-            font-size: 22px;
-            color: #d97706;
-            animation: pulse 2s infinite;
-        }
+        .quick-deals .label i { font-size: 22px; color: #d97706; animation: pulse 2s infinite; }
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.15); }
@@ -237,13 +212,8 @@
             flex-wrap: wrap;
             transition: all 0.25s ease;
         }
-        .deal-item:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 16px rgba(180, 95, 27, 0.12);
-        }
-        .deal-item i {
-            color: #b45f1b;
-        }
+        .deal-item:hover { transform: translateY(-3px); box-shadow: 0 8px 16px rgba(180, 95, 27, 0.12); }
+        .deal-item i { color: #b45f1b; }
         .deal-item .price {
             background: #0b2b5c;
             color: white;
@@ -267,20 +237,10 @@
             gap: 5px;
             line-height: 22px;
         }
-        .deal-chart-btn i {
-            color: white;
-            font-size: 12px;
-        }
-        .deal-chart-btn:hover {
-            background: #0b2b5c;
-            transform: scale(1.05);
-        }
-        .deal-chart-btn:active {
-            transform: scale(0.95);
-        }
-        .deal-chart-btn.added {
-            background: #16a34a;
-        }
+        .deal-chart-btn i { color: white; font-size: 12px; }
+        .deal-chart-btn:hover { background: #0b2b5c; transform: scale(1.05); }
+        .deal-chart-btn:active { transform: scale(0.95); }
+        .deal-chart-btn.added { background: #16a34a; }
 
         /* ----- PRODUCT SECTION ----- */
         .section-title {
@@ -291,11 +251,7 @@
             flex-wrap: wrap;
             margin-bottom: 24px;
         }
-        .section-title h2 {
-            font-weight: 800;
-            font-size: 26px;
-            color: #0a2540;
-        }
+        .section-title h2 { font-weight: 800; font-size: 26px; color: #0a2540; }
         .chart-toggle {
             background: #0b2b5c;
             color: white;
@@ -312,19 +268,10 @@
             box-shadow: 0 6px 14px rgba(10, 40, 80, 0.2);
             white-space: nowrap;
         }
-        .chart-toggle i {
-            font-size: 18px;
-        }
-        .chart-toggle:hover {
-            background: #123f77;
-            transform: translateY(-2px) scale(1.02);
-        }
-        .chart-toggle:active {
-            transform: translateY(0) scale(0.98);
-        }
-        .chart-toggle.active {
-            background: #d92b2b;
-        }
+        .chart-toggle i { font-size: 18px; }
+        .chart-toggle:hover { background: #123f77; transform: translateY(-2px) scale(1.02); }
+        .chart-toggle:active { transform: translateY(0) scale(0.98); }
+        .chart-toggle.active { background: #d92b2b; }
 
         /* Products grid */
         .product-grid {
@@ -366,33 +313,11 @@
             color: #1a4a8b;
             transition: all 0.3s ease;
         }
-        .product-card:hover .product-img {
-            background: #dbe8fb;
-            transform: scale(1.08) rotate(-4deg);
-        }
-        .product-name {
-            font-weight: 700;
-            font-size: 18px;
-            margin-bottom: 4px;
-        }
-        .product-category {
-            font-size: 13px;
-            color: #5f7d9e;
-            font-weight: 500;
-            margin-bottom: 8px;
-        }
-        .product-price {
-            font-weight: 800;
-            font-size: 20px;
-            color: #0b2b5c;
-            margin: 6px 0 10px;
-        }
-        .product-actions {
-            display: flex;
-            gap: 8px;
-            margin-top: auto;
-            flex-wrap: wrap;
-        }
+        .product-card:hover .product-img { background: #dbe8fb; transform: scale(1.08) rotate(-4deg); }
+        .product-name { font-weight: 700; font-size: 18px; margin-bottom: 4px; }
+        .product-category { font-size: 13px; color: #5f7d9e; font-weight: 500; margin-bottom: 8px; }
+        .product-price { font-weight: 800; font-size: 20px; color: #0b2b5c; margin: 6px 0 10px; }
+        .product-actions { display: flex; gap: 8px; margin-top: auto; flex-wrap: wrap; }
         .btn-chart {
             background: #1f3a5e;
             border: none;
@@ -410,19 +335,10 @@
             justify-content: center;
             user-select: none;
         }
-        .btn-chart i {
-            font-size: 14px;
-        }
-        .btn-chart:hover {
-            background: #0b2b5c;
-            transform: translateY(-2px);
-        }
-        .btn-chart:active {
-            transform: scale(0.96);
-        }
-        .btn-chart.added {
-            background: #16a34a;
-        }
+        .btn-chart i { font-size: 14px; }
+        .btn-chart:hover { background: #0b2b5c; transform: translateY(-2px); }
+        .btn-chart:active { transform: scale(0.96); }
+        .btn-chart.added { background: #16a34a; }
 
         /* ---- CHART PANEL ---- */
         .chart-panel {
@@ -437,12 +353,7 @@
             opacity: 0;
             transform: translateY(-10px);
         }
-        .chart-panel.open {
-            display: block;
-            opacity: 1;
-            transform: translateY(0);
-            animation: panelIn 0.35s ease;
-        }
+        .chart-panel.open { display: block; opacity: 1; transform: translateY(0); animation: panelIn 0.35s ease; }
         @keyframes panelIn {
             from { opacity: 0; transform: translateY(-14px); }
             to { opacity: 1; transform: translateY(0); }
@@ -455,13 +366,8 @@
             gap: 14px;
             margin-bottom: 20px;
         }
-        .chart-panel h3 i {
-            color: #1a4a8b;
-        }
-        .chart-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+        .chart-panel h3 i { color: #1a4a8b; }
+        .chart-table { width: 100%; border-collapse: collapse; }
         .chart-table th {
             text-align: left;
             padding: 12px 8px;
@@ -470,16 +376,8 @@
             font-weight: 600;
             font-size: 14px;
         }
-        .chart-table td {
-            padding: 12px 8px;
-            border-bottom: 1px solid #e2eaf5;
-            font-size: 14px;
-        }
-        .chart-table .total-row {
-            background: #e3edfb;
-            font-weight: 700;
-            border-radius: 20px;
-        }
+        .chart-table td { padding: 12px 8px; border-bottom: 1px solid #e2eaf5; font-size: 14px; }
+        .chart-table .total-row { background: #e3edfb; font-weight: 700; border-radius: 20px; }
         .chart-table .remove-item {
             color: #b91c1c;
             cursor: pointer;
@@ -489,16 +387,10 @@
             font-size: 14px;
             transition: transform 0.2s;
         }
-        .chart-table .remove-item:hover {
-            transform: scale(1.2);
-        }
-        .chart-empty {
-            padding: 24px;
-            text-align: center;
-            color: #5f7d9e;
-        }
+        .chart-table .remove-item:hover { transform: scale(1.2); }
+        .chart-empty { padding: 24px; text-align: center; color: #5f7d9e; }
 
-        /* ----- MESSAGE SECTION ----- */
+        /* ----- MESSAGE SECTION (Customer → WhatsApp) ----- */
         .message-section {
             margin-top: 24px;
             padding-top: 20px;
@@ -513,74 +405,13 @@
             align-items: center;
             gap: 10px;
         }
-        .message-section h4 i {
-            color: #1a4a8b;
-        }
-
-        .conversation-thread {
-            max-height: 220px;
-            overflow-y: auto;
-            margin-bottom: 14px;
-            padding: 8px 4px;
-            border-radius: 16px;
-            background: #f1f6fe;
-            display: none;
-            scroll-behavior: smooth;
-        }
-        .conversation-thread.has-messages {
-            display: block;
-        }
-        .conversation-thread::-webkit-scrollbar {
-            width: 6px;
-        }
-        .conversation-thread::-webkit-scrollbar-thumb {
-            background: #b9d0f0;
-            border-radius: 10px;
-        }
-        .message-bubble {
-            padding: 10px 16px;
-            border-radius: 18px;
-            margin-bottom: 8px;
-            max-width: 85%;
-            font-size: 14px;
-            line-height: 1.5;
-            word-wrap: break-word;
-            animation: fadeIn 0.3s ease;
-        }
-        .message-bubble.customer {
-            background: #ffffff;
-            border: 1px solid #dae3f0;
-            margin-right: auto;
-            border-bottom-left-radius: 4px;
-        }
-        .message-bubble.owner {
-            background: #1a4a8b;
-            color: white;
-            margin-left: auto;
-            border-bottom-right-radius: 4px;
-        }
-        .message-bubble .msg-time {
-            font-size: 10px;
-            opacity: 0.7;
-            display: block;
-            margin-top: 4px;
-        }
-        .message-bubble.owner .msg-time {
-            color: #c8dbf5;
-        }
-        .message-bubble.customer .msg-time {
-            color: #6b7f9a;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(6px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+        .message-section h4 i { color: #25D366; }
 
         .message-input-group {
             display: flex;
             gap: 12px;
             flex-wrap: wrap;
+            align-items: flex-end;
         }
         .message-input-group textarea {
             flex: 1;
@@ -591,119 +422,53 @@
             font-family: 'Inter', sans-serif;
             font-size: 14px;
             resize: vertical;
-            min-height: 60px;
+            min-height: 70px;
             transition: all 0.2s;
             background: white;
         }
         .message-input-group textarea:focus {
             outline: none;
-            border-color: #1a4a8b;
-            box-shadow: 0 0 0 3px rgba(26, 74, 139, 0.1);
+            border-color: #25D366;
+            box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.15);
         }
-        .send-message-btn {
-            background: #1a4a8b;
+
+        /* WhatsApp Send Button */
+        .whatsapp-send-btn {
+            background: #25D366;
             color: white;
             border: none;
-            padding: 12px 28px;
+            padding: 14px 28px;
             border-radius: 60px;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 15px;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.25s ease;
             display: flex;
             align-items: center;
             gap: 10px;
             white-space: nowrap;
             height: fit-content;
-            align-self: flex-end;
+            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.35);
+            text-decoration: none;
         }
-        .send-message-btn:hover {
-            background: #0b2b5c;
-            transform: translateY(-2px) scale(1.02);
+        .whatsapp-send-btn:hover {
+            background: #1da851;
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 10px 22px rgba(37, 211, 102, 0.45);
         }
-        .send-message-btn:active {
-            transform: scale(0.97);
-        }
-        .send-message-btn i {
-            font-size: 16px;
-        }
+        .whatsapp-send-btn:active { transform: scale(0.97); }
+        .whatsapp-send-btn i { font-size: 20px; }
 
-        .owner-response-area {
-            margin-top: 12px;
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            align-items: center;
-            padding: 12px 14px;
-            background: #eef4fd;
-            border-radius: 20px;
-            border: 1px dashed #b9d0f0;
-        }
-        .owner-response-area label {
-            font-weight: 600;
-            font-size: 13px;
-            color: #0a2540;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            white-space: nowrap;
-        }
-        .owner-response-area input {
-            flex: 1;
-            min-width: 140px;
-            padding: 8px 16px;
-            border-radius: 30px;
-            border: 1px solid #dae3f0;
-            font-size: 14px;
-            background: white;
-            transition: all 0.2s;
-        }
-        .owner-response-area input:focus {
-            outline: none;
-            border-color: #1a4a8b;
-            box-shadow: 0 0 0 3px rgba(26, 74, 139, 0.08);
-        }
-        .owner-response-area .reply-btn {
-            background: #0b2b5c;
-            color: white;
-            border: none;
-            padding: 8px 20px;
-            border-radius: 30px;
-            font-weight: 600;
-            font-size: 13px;
-            cursor: pointer;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .owner-response-area .reply-btn:hover:not(:disabled) {
-            background: #1a4a8b;
-            transform: translateY(-2px);
-        }
-        .owner-response-area .reply-btn:active:not(:disabled) {
-            transform: scale(0.96);
-        }
-        .owner-response-area .reply-btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-        .owner-key-input {
-            max-width: 140px !important;
-            min-width: 100px !important;
-        }
-        .owner-key-input::placeholder {
+        .whatsapp-note {
+            margin-top: 10px;
             font-size: 12px;
-            color: #999;
+            color: #5f7d9e;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
         }
-        .owner-lock-icon {
-            color: #d97706;
-            font-size: 14px;
-            transition: color 0.3s;
-        }
-        .owner-unlocked {
-            color: #16a34a;
-        }
+        .whatsapp-note i { color: #25D366; }
 
         .message-feedback {
             margin-top: 10px;
@@ -712,12 +477,12 @@
             color: #16a34a;
             display: none;
         }
-        .message-feedback.show {
-            display: block;
-            animation: fadeIn 0.3s ease;
-        }
-        .message-feedback.error {
-            color: #dc2626;
+        .message-feedback.show { display: block; animation: fadeIn 0.3s ease; }
+        .message-feedback.error { color: #dc2626; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         /* footer */
@@ -733,18 +498,11 @@
             gap: 10px;
         }
 
-        /* ----- SCROLL REVEAL ----- */
-        .reveal {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-        .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        /* Scroll reveal */
+        .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
 
-        /* ========== RESPONSIVE BREAKPOINTS ========== */
+        /* ========== RESPONSIVE ========== */
         @media (max-width: 1100px) {
             .logo-text { font-size: 24px; }
             .product-grid { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
@@ -766,49 +524,26 @@
             body { padding: 0 10px; }
             .container { padding: 16px; border-radius: 24px; margin-top: 10px; }
             .header { flex-direction: column; align-items: flex-start; gap: 12px; }
-            .header-actions { align-self: flex-end; }
+            .header-actions { align-self: flex-end; flex-wrap: wrap; }
             .logo-icon { width: 48px; height: 48px; min-width: 48px; font-size: 24px; }
             .logo-text { font-size: 20px; }
             .logo-text span { padding: 0 8px; }
             
-            .nav-bar {
-                border-radius: 20px;
-                padding: 10px;
-                gap: 6px;
-                justify-content: center;
-            }
+            .nav-bar { border-radius: 20px; padding: 10px; gap: 6px; justify-content: center; }
             .nav-bar a { font-size: 13px; padding: 7px 11px; }
             .nav-bar a i { margin-right: 5px; font-size: 12px; }
             .nav-bar a.active { padding: 7px 16px; }
             
-            .quick-deals {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 12px;
-                border-radius: 24px;
-                padding: 16px;
-            }
-            .deal-items {
-                width: 100%;
-                justify-content: flex-start;
-                gap: 10px;
-            }
-            .deal-item {
-                font-size: 13px;
-                padding: 5px 12px;
-                width: 100%;
-                justify-content: space-between;
-            }
+            .quick-deals { flex-direction: column; align-items: flex-start; gap: 12px; border-radius: 24px; padding: 16px; }
+            .deal-items { width: 100%; justify-content: flex-start; gap: 10px; }
+            .deal-item { font-size: 13px; padding: 5px 12px; width: 100%; justify-content: space-between; }
             .deal-item .price { font-size: 11px; }
             
             .section-title { flex-direction: column; align-items: stretch; gap: 12px; }
             .section-title h2 { font-size: 20px; }
             .chart-toggle { justify-content: center; width: 100%; }
             
-            .product-grid {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 16px 14px;
-            }
+            .product-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px 14px; }
             .product-card { padding: 14px 12px 16px; border-radius: 22px; }
             .product-img { width: 60px; height: 60px; font-size: 34px; border-radius: 22px; margin-bottom: 10px; }
             .product-name { font-size: 15px; }
@@ -819,14 +554,9 @@
             .chart-panel h3 { font-size: 17px; }
             .chart-table th, .chart-table td { padding: 8px 4px; font-size: 12px; }
             
-            .message-input-group { flex-direction: column; }
-            .send-message-btn { align-self: stretch; justify-content: center; }
-            .owner-response-area { flex-direction: column; align-items: stretch; }
-            .owner-response-area input,
-            .owner-key-input { max-width: 100% !important; min-width: 100% !important; }
-            .owner-response-area .reply-btn { justify-content: center; }
+            .message-input-group { flex-direction: column; align-items: stretch; }
+            .whatsapp-send-btn { justify-content: center; width: 100%; }
             
-            .message-bubble { max-width: 92%; font-size: 13px; }
             .footer-note { flex-direction: column; text-align: center; font-size: 13px; }
         }
 
@@ -842,7 +572,6 @@
             .chart-toggle { font-size: 13px; padding: 10px 16px; }
         }
 
-        /* Touch device optimizations */
         @media (hover: none) {
             .product-card:hover { transform: none; }
             .btn-chart:hover { transform: none; }
@@ -850,7 +579,6 @@
             .chart-toggle:hover { transform: none; }
         }
 
-        /* Reduced motion */
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
                 animation-duration: 0.01ms !important;
@@ -911,29 +639,23 @@
                 <div class="chart-empty">📊 No items added yet. Click the chart button on any product.</div>
             </div>
             
-            <!-- Message Section -->
+            <!-- Message Section: Customer sends to WhatsApp -->
             <div class="message-section">
-                <h4><i class="fas fa-comments"></i> Chat with the owner</h4>
+                <h4><i class="fab fa-whatsapp"></i> Send your order via WhatsApp</h4>
                 
-                <div class="conversation-thread" id="conversationThread"></div>
-
                 <div class="message-input-group">
-                    <textarea id="messageInput" placeholder="Type your message here... (e.g., questions about products, bulk order inquiries)"></textarea>
-                    <button class="send-message-btn" id="sendMessageBtn">
-                        <i class="fas fa-paper-plane"></i> Send
-                    </button>
+                    <textarea id="messageInput" placeholder="Type your message here... (e.g., questions about products, bulk orders, or send your chart as an order)"></textarea>
+                    <a class="whatsapp-send-btn" id="whatsappSendBtn" href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i> Send on WhatsApp
+                    </a>
                 </div>
-
-                <div class="owner-response-area">
-                    <label><i class="fas fa-store"></i> Owner reply:</label>
-                    <input type="text" id="ownerReplyInput" placeholder="Type owner's response...">
-                    <input type="password" id="ownerKeyInput" class="owner-key-input" placeholder="🔑 Owner key">
-                    <button class="reply-btn" id="replyBtn"><i class="fas fa-reply"></i> Reply</button>
-                    <span id="ownerLockStatus" class="owner-lock-icon"><i class="fas fa-lock"></i></span>
+                <div class="whatsapp-note">
+                    <i class="fas fa-info-circle"></i>
+                    Your message and chart items will open in WhatsApp. The owner will reply directly to you.
                 </div>
 
                 <div class="message-feedback" id="messageFeedback">
-                    <i class="fas fa-check-circle"></i> Message sent successfully!
+                    <i class="fas fa-check-circle"></i> Opening WhatsApp...
                 </div>
             </div>
         </div>
@@ -947,7 +669,15 @@
 
     <script>
         (function() {
-            // ---------- PRODUCT DATA ----------
+            // ============================================
+            // ⚙️ CONFIGURATION — OWNER WHATSAPP NUMBER
+            // ============================================
+            // International format: country code + number, NO +, NO spaces
+            const OWNER_WHATSAPP_NUMBER = '256726389955'; // 🇺🇬 Uganda: +256 726 389 955
+
+            // ============================================
+            // PRODUCT DATA
+            // ============================================
             const products = [
                 { id: 1, name: 'iPhone 16 Pro', category: 'Phones', price: 1099, icon: 'fa-mobile-alt' },
                 { id: 2, name: 'Galaxy S24 Ultra', category: 'Phones', price: 1199, icon: 'fa-mobile-alt' },
@@ -968,15 +698,15 @@
                 { id: 7, name: 'Watch Ultra', price: 549, icon: 'fa-clock' }
             ];
 
-            // ----- state -----
+            // ============================================
+            // STATE
+            // ============================================
             let chartItems = [];
             let currentFilter = 'all';
-            let messages = [];
-            let isOwnerAuthenticated = false;
 
-            const OWNER_KEY = 'Violet.00';
-
-            // DOM refs
+            // ============================================
+            // DOM REFS
+            // ============================================
             const grid = document.getElementById('productGrid');
             const chartPanel = document.getElementById('chartPanel');
             const chartContent = document.getElementById('chartContent');
@@ -986,15 +716,12 @@
             const navLinks = document.querySelectorAll('#navBar a');
             const dealContainer = document.getElementById('dealItems');
             const messageInput = document.getElementById('messageInput');
-            const sendMessageBtn = document.getElementById('sendMessageBtn');
+            const whatsappSendBtn = document.getElementById('whatsappSendBtn');
             const messageFeedback = document.getElementById('messageFeedback');
-            const conversationThread = document.getElementById('conversationThread');
-            const ownerReplyInput = document.getElementById('ownerReplyInput');
-            const ownerKeyInput = document.getElementById('ownerKeyInput');
-            const replyBtn = document.getElementById('replyBtn');
-            const ownerLockStatus = document.getElementById('ownerLockStatus');
 
-            // ----- render quick deals -----
+            // ============================================
+            // RENDER FUNCTIONS
+            // ============================================
             function renderQuickDeals() {
                 dealContainer.innerHTML = '';
                 quickDeals.forEach(deal => {
@@ -1025,7 +752,6 @@
                 });
             }
 
-            // ----- render products -----
             function renderProducts(filter = 'all') {
                 grid.innerHTML = '';
                 const filtered = filter === 'all' ? products : products.filter(p => p.category === filter);
@@ -1067,7 +793,9 @@
                 });
             }
 
-            // ----- chart functions -----
+            // ============================================
+            // CHART FUNCTIONS
+            // ============================================
             function addToChart(id, name, price) {
                 const existing = chartItems.find(item => item.id === id);
                 if (existing) existing.qty += 1;
@@ -1086,6 +814,7 @@
             function updateChartUI() {
                 if (chartItems.length === 0) {
                     chartContent.innerHTML = `<div class="chart-empty">📊 No items added yet. Click the chart button on any product.</div>`;
+                    updateWhatsAppLink();
                     return;
                 }
                 let html = `<table class="chart-table"><thead><tr><th>Product</th><th>Price</th><th>Qty</th><th>Total</th><th></th></tr></thead><tbody>`;
@@ -1102,6 +831,7 @@
                         removeFromChart(parseInt(this.dataset.id));
                     });
                 });
+                updateWhatsAppLink();
             }
 
             function updateCartBadge(animate = false) {
@@ -1113,7 +843,6 @@
                 }
             }
 
-            // ----- chart panel toggle -----
             function openChartPanel() {
                 chartPanel.classList.add('open');
                 chartToggleBtn.classList.add('active');
@@ -1130,111 +859,90 @@
                 chartPanel.classList.contains('open') ? closeChartPanel() : openChartPanel();
             });
 
-            // ----- Owner authentication -----
-            function checkOwnerAuth() {
-                const key = ownerKeyInput.value.trim();
-                if (key === OWNER_KEY) {
-                    isOwnerAuthenticated = true;
-                    ownerLockStatus.innerHTML = '<i class="fas fa-unlock owner-unlocked"></i>';
-                    ownerLockStatus.title = 'Owner authenticated';
-                    replyBtn.disabled = false;
-                    return true;
-                } else {
-                    isOwnerAuthenticated = false;
-                    ownerLockStatus.innerHTML = '<i class="fas fa-lock"></i>';
-                    ownerLockStatus.title = 'Enter owner key to reply';
-                    replyBtn.disabled = true;
-                    return false;
+            // ============================================
+            // WHATSAPP MESSAGE BUILDER
+            // ============================================
+            function buildWhatsAppMessage() {
+                const userMessage = messageInput.value.trim();
+                
+                let parts = [];
+                
+                // Greeting
+                parts.push('Hello Ajay Genuine Gadgets! 👋');
+                parts.push('');
+                
+                // User's message
+                if (userMessage) {
+                    parts.push('💬 *My message:*');
+                    parts.push(userMessage);
+                    parts.push('');
                 }
+                
+                // Chart items
+                if (chartItems.length > 0) {
+                    parts.push('🛒 *My Chart:*');
+                    let grandTotal = 0;
+                    chartItems.forEach(item => {
+                        const lineTotal = item.price * item.qty;
+                        grandTotal += lineTotal;
+                        parts.push(`• ${item.name} — ${item.qty} × $${item.price.toFixed(2)} = $${lineTotal.toFixed(2)}`);
+                    });
+                    parts.push('');
+                    parts.push(`💰 *Grand Total: $${grandTotal.toFixed(2)}*`);
+                } else {
+                    parts.push('(No items in chart)');
+                }
+                
+                parts.push('');
+                parts.push('— Sent from Ajay Genuine Gadgets website');
+                
+                return parts.join('\n');
             }
 
-            ownerKeyInput.addEventListener('input', checkOwnerAuth);
-            ownerKeyInput.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter') {
-                    e.preventDefault();
-                    if (checkOwnerAuth()) {
-                        replyBtn.click();
-                    } else {
-                        showFeedback('❌ Invalid owner key. Please try again.', true);
-                    }
-                }
-            });
+            function updateWhatsAppLink() {
+                const message = buildWhatsAppMessage();
+                const encoded = encodeURIComponent(message);
+                whatsappSendBtn.href = `https://wa.me/${OWNER_WHATSAPP_NUMBER}?text=${encoded}`;
+            }
 
-            function showFeedback(text, isError = false) {
-                messageFeedback.textContent = text;
-                messageFeedback.className = 'message-feedback show' + (isError ? ' error' : '');
+            // Update link on message input
+            messageInput.addEventListener('input', updateWhatsAppLink);
+
+            // WhatsApp button click — show feedback
+            whatsappSendBtn.addEventListener('click', function(e) {
+                const msg = messageInput.value.trim();
+                if (!msg && chartItems.length === 0) {
+                    e.preventDefault();
+                    messageFeedback.innerHTML = '<i class="fas fa-exclamation-circle"></i> Please type a message or add items to your chart first.';
+                    messageFeedback.className = 'message-feedback show error';
+                    setTimeout(() => {
+                        messageFeedback.classList.remove('show');
+                        messageFeedback.className = 'message-feedback';
+                    }, 3000);
+                    return;
+                }
+                
+                // Update link before opening
+                updateWhatsAppLink();
+                
+                messageFeedback.innerHTML = '<i class="fab fa-whatsapp"></i> Opening WhatsApp with your message...';
+                messageFeedback.className = 'message-feedback show';
                 setTimeout(() => {
                     messageFeedback.classList.remove('show');
-                    messageFeedback.className = 'message-feedback';
-                }, 3500);
-            }
-
-            // ----- MESSAGING -----
-            function addMessage(sender, text) {
-                const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-                messages.push({ sender, text, time });
-                renderConversation();
-            }
-
-            function renderConversation() {
-                if (messages.length === 0) {
-                    conversationThread.classList.remove('has-messages');
-                    conversationThread.innerHTML = '';
-                    return;
-                }
-                conversationThread.classList.add('has-messages');
-                let html = '';
-                messages.forEach((msg) => {
-                    const bubbleClass = msg.sender === 'customer' ? 'customer' : 'owner';
-                    const senderLabel = msg.sender === 'customer' ? 'You' : '👤 Owner';
-                    html += `
-                        <div class="message-bubble ${bubbleClass}">
-                            <strong>${senderLabel}</strong><br>
-                            ${msg.text}
-                            <span class="msg-time">${msg.time}</span>
-                        </div>
-                    `;
-                });
-                conversationThread.innerHTML = html;
-                conversationThread.scrollTop = conversationThread.scrollHeight;
-            }
-
-            sendMessageBtn.addEventListener('click', function() {
-                const text = messageInput.value.trim();
-                if (text === '') {
-                    showFeedback('⚠️ Please type a message first.', true);
-                    return;
-                }
-                addMessage('customer', text);
-                messageInput.value = '';
-                showFeedback('✅ Message sent! The owner will respond shortly.');
+                }, 3000);
             });
 
-            replyBtn.addEventListener('click', function() {
-                if (!isOwnerAuthenticated) {
-                    if (!checkOwnerAuth()) {
-                        showFeedback('❌ Invalid owner key. Please enter the correct key.', true);
-                        return;
-                    }
-                }
-                const text = ownerReplyInput.value.trim();
-                if (text === '') {
-                    showFeedback('⚠️ Please type a reply first.', true);
-                    return;
-                }
-                addMessage('owner', text);
-                ownerReplyInput.value = '';
-                showFeedback('✅ Reply sent to customer!');
-            });
-
+            // Ctrl+Enter to send on WhatsApp
             messageInput.addEventListener('keydown', function(e) {
                 if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
                     e.preventDefault();
-                    sendMessageBtn.click();
+                    whatsappSendBtn.click();
                 }
             });
 
-            // ----- NAVIGATION FILTERING -----
+            // ============================================
+            // NAVIGATION FILTERING
+            // ============================================
             function setActiveFilter(filter, clickedElement) {
                 navLinks.forEach(link => link.classList.remove('active'));
                 clickedElement.classList.add('active');
@@ -1242,7 +950,6 @@
                 renderProducts(filter);
                 const categoryMap = { 'all': 'All Products', 'Phones': 'Phones', 'Laptops': 'Laptops', 'AirPods': 'AirPods', 'Smartwatches': 'Smartwatches', 'Accessories': 'Accessories' };
                 categoryTitle.innerHTML = `<i class="fas fa-store-alt" style="color:#1a4a8b; margin-right: 10px;"></i>${categoryMap[filter] || 'Products'}`;
-                // Scroll to products on mobile
                 if (window.innerWidth < 700) {
                     grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
@@ -1255,7 +962,9 @@
                 });
             });
 
-            // ----- SCROLL REVEAL -----
+            // ============================================
+            // SCROLL REVEAL
+            // ============================================
             function initScrollReveal() {
                 const reveals = document.querySelectorAll('.reveal');
                 const observer = new IntersectionObserver((entries) => {
@@ -1269,37 +978,28 @@
                 reveals.forEach(el => observer.observe(el));
             }
 
-            // ----- init -----
+            // ============================================
+            // INIT
+            // ============================================
             renderQuickDeals();
             renderProducts('all');
             updateCartBadge();
             categoryTitle.innerHTML = `<i class="fas fa-store-alt" style="color:#1a4a8b; margin-right: 10px;"></i>All Products`;
             closeChartPanel();
-            renderConversation();
             initScrollReveal();
-            
-            replyBtn.disabled = true;
-            ownerLockStatus.innerHTML = '<i class="fas fa-lock"></i>';
-            ownerLockStatus.title = 'Enter owner key to reply';
+            updateWhatsAppLink();
 
-            setTimeout(() => {
-                messages.push({ 
-                    sender: 'owner', 
-                    text: '👋 Welcome! I\'m Ajay, the owner. Feel free to ask about any product or bulk orders!', 
-                    time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-                });
-                renderConversation();
-            }, 600);
-
-            // Handle window resize for grid adjustments
+            // Handle window resize
             let resizeTimer;
             window.addEventListener('resize', () => {
                 clearTimeout(resizeTimer);
                 resizeTimer = setTimeout(() => {
-                    // Re-render products to ensure proper layout
                     renderProducts(currentFilter);
                 }, 200);
             });
+
+            console.log('[WHATSAPP] Owner number: +' + OWNER_WHATSAPP_NUMBER);
+            console.log('[WHATSAPP] Ready to send messages.');
         })();
     </script>
 </body>
